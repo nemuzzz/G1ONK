@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4404702397834022766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5934867303312438500}
+  - component: {fileID: 267944040022379656}
+  m_Layer: 0
+  m_Name: CombatAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5934867303312438500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4404702397834022766}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8860178, y: 4.7608232, z: -0.16803117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &267944040022379656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4404702397834022766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938cea223048d704c9c5c9b9f45ae1f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootSound: {fileID: 8300000, guid: 6eecead789346eb42b879157e8f7ee25, type: 3}
+  playerHitSound: {fileID: 8300000, guid: e66b74b93931fd942a83aae7d40c7d48, type: 3}
+  enemyDeathSound: {fileID: 8300000, guid: e66b74b93931fd942a83aae7d40c7d48, type: 3}
+  arrowInputSound: {fileID: 8300000, guid: 192fc9f292f282f4ab365c71c1048825, type: 3}
+  wrongInputSound: {fileID: 8300000, guid: 1107a0660436c7f4da0dc099c393c936, type: 3}
+  bulletAddedSound: {fileID: 8300000, guid: 1009cc0cfb10b04418e1d7e5ed3b9eb7, type: 3}
+  gameOverSound: {fileID: 8300000, guid: 69f045ab3a2ebb949958f9fbbc5cbcb1, type: 3}
+  victorySound: {fileID: 8300000, guid: 7628cef7fcc809e45b79985bf4f6d7bb, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: b5c069e846620db4d82c8574f8b6eb3b, type: 3}
+  shootVolume: 0.441
+  playerHitVolume: 0.8
+  enemyDeathVolume: 0.7
+  arrowInputVolume: 0.5
+  wrongInputVolume: 0.438
+  bulletAddedVolume: 0.232
+  gameOverVolume: 0.8
+  victoryVolume: 0.8
+  buttonClickVolume: 0.5

@@ -6,6 +6,73 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  m_configObjects: {}
+    path: Assets/Scenes/Menu.unity
+    guid: 079191d5410c3c24d9da23178ad3f71a
+  - enabled: 1
+    path: Assets/Scenes/AreaScenes/Area1.unity
+    guid: 787b02cde17822643911c48942cf75b9
+  - enabled: 1
+    path: Assets/Scenes/AreaScenes/Area2.unity
+    guid: e3683a1b5ce015c4693cd655915b2557
+  - enabled: 1
+    path: Assets/Scenes/AreaScenes/Area3.unity
+    guid: 89450a5cd64cdd24ab66a70accdb52ef
+  - enabled: 1
+    path: Assets/Scenes/AreaScenes/Area5.unity
+    guid: 0b2fcb950a8cec148873aa787beef3b9
+  - enabled: 1
+    path: Assets/Scenes/AreaScenes/Area4.unity
+    guid: 957f8a4a0a8ac91409d9e1dd99257398
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CombatScene.unity
+    guid: 8e7e242aedf3976409500310ff43c9d7
+  - enabled: 1
+    path: Assets/Scenes/Fight_UI.unity
+    guid: 90a331e74f29b5640a81ef730aab04d9
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A102.unity
+    guid: 7819cd8a082fb1d4da87404e95f4f7ee
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A103.unity
+    guid: e949ddf4b149b084ca85a073d60d3254
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A104.unity
+    guid: 30e7e0a82f292ac4f89359e29deede68
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A105.unity
+    guid: dd336a5f98c536443bfb61dc3cf94e6b
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A106.unity
+    guid: ac9c965b23009db41b575740eb5568fc
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A107.unity
+    guid: ceb463e2eb353ed408290a839d34f062
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A201.unity
+    guid: 127fd10ce51bd894cb93f305bf93a221
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A202.unity
+    guid: 1a95640cccba95f4bb7ce8fcc43e0947
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A203.unity
+    guid: b79586394cd1d3b41a13c0f0061ffce9
+  - enabled: 1
+    path: Assets/Scenes/AreaScenes/Area6.unity
+    guid: a987523714d55d84cbe54c07e1615514
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A602.unity
+    guid: 3c870d536d666ea418a04ad51f68a2fa
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A601.unity
+    guid: f37ec7a0516e3ad49a6048d4042c175f
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A501.unity
+    guid: e13ddf4dc805de8478df9e9b3669abb0
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A401.unity
+    guid: e99b658f6f7eb9342bc5b145c2bdc135
+  - enabled: 1
+    path: Assets/Scenes/CombatScenes/CS_A301.unity
+    guid: 4399ff32786ed8d48af9306600a4250d
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: c6f6e8d88b9efe240a4580d8e703ca97, type: 2}

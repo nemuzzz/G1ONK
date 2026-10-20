@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1489758672574892167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3330170912377776387}
+  - component: {fileID: 8123410646505614865}
+  - component: {fileID: 7643096896942687698}
+  m_Layer: 0
+  m_Name: VictoryUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3330170912377776387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489758672574892167}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04075171, y: -0.79354596, z: -0.1721101}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8123410646505614865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489758672574892167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 7b9bc7bc0a71dcc429935501a68a60e2, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: d8ed975662dcb7e429076b4f6d3eba91, type: 3}
+  m_SortingOrder: 1
+--- !u!114 &7643096896942687698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489758672574892167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f76ecc0ceed0ae4cb856bc86d25d571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  victoryUIDocument: {fileID: 8123410646505614865}
+  healthSprite: {fileID: 2800000, guid: 85e386f777e19ef4fb543ba8083e823f, type: 3}
+  lostHealthSprite: {fileID: 2800000, guid: 361f69ee3c5d78b49be7ef6dd74b463b, type: 3}
+  levelIcons:
+  - {fileID: 2800000, guid: 4340eda8243f2404f875e04d8af75051, type: 3}
+  - {fileID: 2800000, guid: b5d17b86a50f39543bd0f8375cd7fcdc, type: 3}
+  - {fileID: 2800000, guid: 4fd42c28070bbdf478dcf2487e3db156, type: 3}
+  - {fileID: 2800000, guid: 5c1b96f8197500849b2bf1f589046351, type: 3}
+  - {fileID: 2800000, guid: 34f5fc46efc42d345abe3b97434ff89b, type: 3}
+  - {fileID: 2800000, guid: f956840b297702442a0a9e7ff6b5d688, type: 3}
+  - {fileID: 2800000, guid: 1c3f0b27a2cb75c4eb536b74d8ce65a5, type: 3}
+  - {fileID: 2800000, guid: 27334f604da7d7c428f4f59d1cd3716b, type: 3}
+  - {fileID: 2800000, guid: b7203e88fa17fe74ba5644ee17f9e455, type: 3}
+  - {fileID: 2800000, guid: 3245dbf63e985b146a45d7d00314bb37, type: 3}
+  - {fileID: 2800000, guid: 6b6d6530aeb0bd841bed127fe5a26aca, type: 3}
+  - {fileID: 2800000, guid: 14a54413e3423c14a9a1d9da3e9ef9e6, type: 3}
+  - {fileID: 2800000, guid: 94055614c72f72645b7beca85d8c7eba, type: 3}
+  - {fileID: 2800000, guid: f3a4d3f3c885b374ca29fa3ef92e3ea4, type: 3}
+  levelNames:
+  - CS_A102
+  - CS_A103
+  - CS_A104
+  - CS_A105
+  - CS_A106
+  - CS_A107
+  - CS_A201
+  - CS_A202
+  - CS_A203
+  - CS_A301
+  - CS_A401
+  - CS_A501
+  - CS_A601
+  - CS_A602

@@ -1,0 +1,35 @@
+.game-over-panel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+}
+
+.result-text {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+    -unity-font-style: bold;
+}
+
+.retry-button {
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    background-color: rgb(59, 153, 252);
+    color: white;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.retry-button:hover {
+    background-color: rgb(41, 128, 219);
+    scale: 1.05;
+}
+
+.retry-button:active {
+    background-color: rgb(28, 100, 175);
+    scale: 0.95;
+}
